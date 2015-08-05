@@ -35,6 +35,10 @@ make install
 `protoc-gen-php` is related project (https://github.com/chobie/protoc-gen-php).
 you need this when you generate message from .proto file.
 
+###Demo
+```
+protoc --plugin=/opt/php/lib/php/protoc-gen-php/bin/protoc-gen-php  --proto_path=/home/work/workspace/php-5.5.26/ext/php-protocolbuffers/examples /home/work/workspace/php-5.5.26/ext/php-protocolbuffers/examples/*.proto --php_out=/tmp/debug-proto
+```
 ### More information
 
 see wiki https://github.com/chobie/php-protocolbuffers/wiki
